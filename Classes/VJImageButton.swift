@@ -51,7 +51,7 @@ public final class IconTextButton:UIButton {
         backgroundColor = .systemGreen
     }
     required init?(coder: NSCoder) {
-        fatalError()
+        super.init(coder: coder)
     }
     public func configure(with viewModel:IconTextButtonViewModel) {
         label.text = viewModel.text
