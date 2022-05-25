@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'VJImageButton/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'VJImageButton' => ['VJImageButton/Assets/*.png']
