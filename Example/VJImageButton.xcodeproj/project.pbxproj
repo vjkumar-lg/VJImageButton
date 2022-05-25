@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03EE7BC56FE3E7395D2B0A28 /* VJImageButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VJImageButton.podspec; path = ../VJImageButton.podspec; sourceTree = "<group>"; };
+		03EE7BC56FE3E7395D2B0A28 /* VJImageButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VJImageButton.podspec; path = ../VJImageButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C3504548DC95C30FBDEDDD7 /* Pods_VJImageButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VJImageButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* VJImageButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VJImageButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,10 +41,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		71EB7ADD0DBC62FEF0B86D05 /* Pods-VJImageButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VJImageButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-VJImageButton_Tests/Pods-VJImageButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		76D5AC593D7E5731A3FEF135 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		76D5AC593D7E5731A3FEF135 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		87F468043875E2305345545A /* Pods_VJImageButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VJImageButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CAB26AC1949AFF5BB0FFA2 /* Pods-VJImageButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VJImageButton_Example.release.xcconfig"; path = "Target Support Files/Pods-VJImageButton_Example/Pods-VJImageButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B7252056D1CE53D8A879BB2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B7252056D1CE53D8A879BB2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BB31CC7FB2FC503F988D03D8 /* Pods-VJImageButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VJImageButton_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VJImageButton_Tests/Pods-VJImageButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C15328E83660D3DAD52CEF38 /* Pods-VJImageButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VJImageButton_Example.debug.xcconfig"; path = "Target Support Files/Pods-VJImageButton_Example/Pods-VJImageButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				BB31CC7FB2FC503F988D03D8 /* Pods-VJImageButton_Tests.debug.xcconfig */,
 				71EB7ADD0DBC62FEF0B86D05 /* Pods-VJImageButton_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A6C8928HU7;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A6C8928HU7;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -478,6 +480,7 @@
 			baseConfigurationReference = C15328E83660D3DAD52CEF38 /* Pods-VJImageButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6C8928HU7;
 				INFOPLIST_FILE = VJImageButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = A8CAB26AC1949AFF5BB0FFA2 /* Pods-VJImageButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A6C8928HU7;
 				INFOPLIST_FILE = VJImageButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB31CC7FB2FC503F988D03D8 /* Pods-VJImageButton_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A6C8928HU7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 71EB7ADD0DBC62FEF0B86D05 /* Pods-VJImageButton_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = A6C8928HU7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -1,0 +1,16 @@
+PODS:
+  - VJImageButton (0.1.0)
+
+DEPENDENCIES:
+  - VJImageButton (from `../`)
+
+EXTERNAL SOURCES:
+  VJImageButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VJImageButton: d130f2dfd3923b267deb93e0716f5cab98eba110
+
+PODFILE CHECKSUM: af20890342f7ac60c6211e9a461b12684dc9f119
+
+COCOAPODS: 1.11.3

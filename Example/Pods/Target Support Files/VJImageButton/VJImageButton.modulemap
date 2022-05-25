@@ -1,0 +1,6 @@
+framework module VJImageButton {
+  umbrella header "VJImageButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
