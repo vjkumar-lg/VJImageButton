@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VJImageButton_Example' do
+  pod 'VJImageButton', :path => '../'
+
+  target 'VJImageButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
